@@ -1,0 +1,61 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+.container{
+     margin: 20px auto;
+     max-width: 800px;
+     padding: 30px;
+}
+h1{
+    text-align: center;
+}
+#task-form{
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+    gap: 15px;
+}
+label{
+    width: 100%;
+    font-size: 0.9em;
+    color: #555;
+}
+input, select, button{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #c6a;
+    border-radius: 4px;
+    font-size: 1m;
+}
+button {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="task-tracker.css">
+    <title>TaskTracker</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Task Tracker</h1>
+        <div id="task-form">
+            <label for="task">Task:</label>
+            <input type="text" id="task" placeholder="Enter your task">
+            <label for="due-date">Due Date:</label>
+            <input type="date" id="due-date">
+            <label for="priority">Priority:</label>
+            <select id="priority">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        <ul id="task-list"></ul>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
