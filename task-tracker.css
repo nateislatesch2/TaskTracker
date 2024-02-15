@@ -59,3 +59,14 @@ li {
     justify-content: space-between;
     align-items: center;
 }
+.image{
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    max-width: 800px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
